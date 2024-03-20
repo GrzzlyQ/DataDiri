@@ -1,0 +1,93 @@
+.berjalan {
+    background-color: black;
+    color: aqua;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid red;
+    border-radius: 7px;
+    z-index: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 500px;
+    min-height: 300px;
+    max-height: 700px;
+    background-color: antiquewhite;
+}
+
+.data {
+    width: 400px;
+    max-width: 400px;
+    height: 970px;
+    background-image: url(blue-watercolor-stain-background_1124-127.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.contain {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foto {
+    width: fit-content;
+    height: 210px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid white;
+}
+
+img {
+    width: 200px;
+    height: 210px;
+}
+
+.label {
+    background-color: rgb(26, 28, 34);
+    padding-bottom: 50px;
+    width: 100px;
+    height: 7px;
+    font-size: small;
+    font-weight: normal;
+    color: white;
+    margin: auto;
+    border: 2px solid white;
+    text-align: center;
+    position: relative;
+    top: 51px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.data-diri {
+    width: 380px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: auto;
+    font-size: large;
+    text-align: center;
+    font-family: verdana;
+}
+
+video {
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    border: 3px solid black;
+}
